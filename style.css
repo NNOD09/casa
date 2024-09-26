@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+@import url("sections/header.css");
+@import url("sections/result.css");
+
+:root {
+    --poppins: "Poppins", "sans-serif";
+
+    --bgColor: #121212;
+    --textColor: #fff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--poppins);
+}
+
+body{
+    height: 100vh;
+    background-color: var(--bgColor);
+}
